@@ -1,0 +1,48 @@
+.add-transaction {
+    padding: 50px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #1C3B83;
+    color: #fff;
+    font-size: 1.5rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    form {
+        .labels {
+            display: flex;
+            .label {
+                width: 40%;
+            }
+        }
+       label {
+           display: flex;
+           align-items: center;
+           input {
+               width: 39%;
+               padding: 20px; 
+               font-size:1.8rem;
+               border-radius: 10px;
+               outline: none; 
+               &:nth-child(2){
+                 margin: 0 0 0 2%;  
+               }
+           }
+           div {
+                width: 10%;
+                font-size: 1.8rem;
+           }
+           button {
+            //    margin: 0 4% 0 0;
+               width: 10%;
+               background-color: #FCB813;
+               border: 0px;
+               font-size: 1.8rem;
+               padding: 30px 20px;
+               border-radius: 10px;
+               cursor: pointer;
+               outline: none;
+               
+           }
+       }
+    }
+}
